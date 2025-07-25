@@ -1,0 +1,140 @@
+.bold{
+    font-weight: bold;
+}
+.text-color{
+    color: rgb(137, 135, 161);
+}
+.text-color2{
+    color: #E95A08;
+}
+.text-color3{
+    color: rgba(0, 0, 0, 0.5);
+}
+body{
+    background: rgb(245, 248, 255);
+
+}
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.primary-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color:#E95A08;
+    padding: 20px 80px;
+    height: 50px;
+    width: 270px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/*nav styles*/
+.navbar{
+margin-left: 150px;
+margin-right: 150px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+}
+.nav-img{
+position: static;
+width: 135px;
+height: 82px;
+
+}
+.nav-links{
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+    gap: 48px;
+}
+.li-items{
+    text-decoration: none;
+    font-size: 1rem;
+}
+/*banner styles*/
+.banner{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.banner-text{
+    font-weight: bold;
+    font-size: 3em;
+
+}
+.banner-para{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.firstpage{
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-img{
+    position: static;
+width: 570px;
+height: 355px;
+
+}
+/*our plants section*/
+.our-plants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.plants-title{
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.plants-para{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+}
+.sample-flower-image{
+    width: 270px;
+    height: 300px;
+}
+.card-title{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.card-price{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
