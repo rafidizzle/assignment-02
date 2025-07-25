@@ -275,3 +275,39 @@ height: 355px;
     height: 42px;
     width: 644px;
 }
+.end{ font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+   
+}
+.to-know{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+.close{
+    color:#6B7280;
+}
+.icons ul li{
+    list-style: none;
+}
+.icons ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.sesh{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer a{
+    text-decoration: none;
+}
