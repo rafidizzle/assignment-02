@@ -204,7 +204,7 @@ height: 355px;
 }
 .latest-deals-section{
     display: flex;
-    gap: 15px;
+    gap: 11px;
     align-items:flex-start;
     justify-content: space-around;
     margin-left: 150px;
