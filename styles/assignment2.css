@@ -81,6 +81,7 @@ height: 82px;
 .banner-text{
     font-weight: bold;
     font-size: 3em;
+    line-height: 20px;
 
 }
 .banner-para{
@@ -199,7 +200,7 @@ height: 355px;
 }
 .latest-deals-section{
     display: flex;
-    gap: 60px;
+    gap: 15px;
     align-items:flex-start;
     justify-content: space-around;
     margin-left: 150px;
@@ -209,7 +210,7 @@ height: 355px;
 .latest-deals-column1{
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 10px;
     
 }
 .row-inside-column1{
@@ -221,8 +222,8 @@ height: 355px;
     background-image: url(../assets/deal-bloom.png);
     background-repeat: no-repeat;
     width: 365px;
-    height: 260px;
-    margin-bottom: 2px;
+    height: 200px;
+    background-size: cover;
     border-radius: 22px;
 } 
 .row-inside-column1 a{
@@ -239,6 +240,7 @@ height: 355px;
     width: 365px;
     height: 200px;
     border-radius: 22px;
+    background-size: cover;
 }
 .row-inside-column2 a{
     color:  rgba(255, 255, 255, 1);
@@ -252,8 +254,9 @@ height: 355px;
     background-image: url(../assets/deal-zabo.png);
     background-repeat: no-repeat;
     width: 755px;
-    height: 425px;
+    height: 410px;
     border-radius: 22px;
+    background-size: cover;
 }
 .latest-deals-column2 a{
     color: rgba(255, 255, 255, 1);
