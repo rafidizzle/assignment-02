@@ -190,6 +190,7 @@ height: 355px;
 }
 .latest-deals-section{
     display: flex;
+    gap: 60px;
     align-items:flex-start;
     justify-content: space-around;
     margin-left: 150px;
@@ -252,6 +253,7 @@ height: 355px;
 .email-section{
     background-image: url(../assets/news-letter-bg.png);
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
