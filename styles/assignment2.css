@@ -189,14 +189,18 @@ height: 355px;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    line-height: 20px;
 }
 .latest-deals-head{
     font-weight: bold;
     font-size: 2.8rem;
+    margin-top: 120px;
 }
 .latest-deals-para{
     font-weight: 400;
     font-size: 1.1rem;
+    margin-bottom: 100px;
+    max-width: 50%;
 }
 .latest-deals-section{
     display: flex;
@@ -204,7 +208,7 @@ height: 355px;
     align-items:flex-start;
     justify-content: space-around;
     margin-left: 150px;
-    margin-right: 150px
+    margin-right: 150px;
     
 }
 .latest-deals-column1{
