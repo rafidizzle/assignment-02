@@ -341,3 +341,119 @@ height: 355px;
 footer a{
     text-decoration: none;
 }
+
+@media (max-width: 576px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 15px;
+        align-items: center;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .not-in-mobile{
+        display: none;
+    }
+      .banner{margin: 0px;
+
+      }
+      .firstpage{
+        display: flex;
+        flex-direction: column;
+      }
+     .banner-img{display: flex;
+        order: 1;
+        width: 100%;
+    } 
+    .firstpage-head{
+        order: 2;
+    }
+    .our-plants{
+        margin: 0px;
+    }
+    .sample-flower-image{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-container{
+        margin: 0px;
+        padding: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.1rem;
+    }
+    .card-btn{
+        width: 100%;
+        padding: 0px;
+    }
+    .trusted-badge{
+        display: none;
+    }
+    .section-plants-class{
+        margin: 0px;
+    }
+    .plants-store{
+        display: flex;
+        flex-direction: column;
+    }
+    .flower-store-img{
+        width: 100%;
+        height: 648px;
+        margin-top: 40px;
+    }
+    .flower-store-ul li{
+        max-width: 100%;
+    }
+    .latest-deals{
+        margin-left: 0px ;
+    }
+    .latest-deals-para{
+        max-width: 100%;
+    }
+    .latest-deals-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .latest-deals-column2{
+        width: 365px;
+        height: 200px; 
+        max-width: 100%;
+    }
+    .zabo{
+        font-size: 1rem;
+    }
+    .email-section{
+        margin: 0px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .email-heading{
+        max-width: 100%;
+        font-size: 1.1rem;
+    }
+    .email-form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .email-form input{
+        height: 30px;
+        width: 218px;
+    }
+    .email-form button{
+        box-sizing: border-box;
+        padding: 17px 10px 17px 10px;
+        height: 20px;
+        width: 103px ;
+        font-size: 10px ;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
