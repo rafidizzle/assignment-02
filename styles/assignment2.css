@@ -37,6 +37,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: center;
+    border: none;
 }
 
 /*nav styles*/
@@ -60,6 +61,13 @@ height: 82px;
     justify-content:flex-start;
     list-style: none;
     gap: 48px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.home{
+    color: #252432;
 }
 .li-items{
     text-decoration: none;
@@ -195,6 +203,7 @@ height: 355px;
     justify-content: space-around;
     margin-left: 150px;
     margin-right: 150px
+    
 }
 .latest-deals-column1{
     display: flex;
@@ -213,6 +222,7 @@ height: 355px;
     width: 365px;
     height: 260px;
     margin-bottom: 2px;
+    border-radius: 22px;
 } 
 .row-inside-column1 a{
     color:  rgba(255, 255, 255, 1);
@@ -227,6 +237,7 @@ height: 355px;
     background-repeat: no-repeat;
     width: 365px;
     height: 200px;
+    border-radius: 22px;
 }
 .row-inside-column2 a{
     color:  rgba(255, 255, 255, 1);
@@ -241,6 +252,7 @@ height: 355px;
     background-repeat: no-repeat;
     width: 755px;
     height: 425px;
+    border-radius: 22px;
 }
 .latest-deals-column2 a{
     color: rgba(255, 255, 255, 1);
@@ -279,6 +291,7 @@ height: 355px;
     height: 50px;
     width: 185px;
     padding: 20px 52px;
+    border: none;
 }
 .email-input{
     height: 42px;
