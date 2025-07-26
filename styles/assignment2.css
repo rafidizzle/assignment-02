@@ -192,9 +192,13 @@ height: 355px;
     display: flex;
     align-items:flex-start;
     justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px
 }
 .latest-deals-column1{
-    marg;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
     
 }
 .row-inside-column1{
@@ -247,13 +251,16 @@ height: 355px;
 /*email section*/
 .email-section{
     background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    
     height: 533px;
     margin-top: 100px;
+    margin-left: 130px;
+    margin-right: 130px;
 
 }
 .email-heading{
